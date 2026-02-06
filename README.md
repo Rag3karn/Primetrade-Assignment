@@ -18,6 +18,17 @@ An interactive Streamlit dashboard for exploring the relationship between market
 - Data files: `fear_greed_index.csv` and `historical_data.csv`
 - Project files are stored inside the `venv/` folder in this repo
 
+## 📓 Notebook First (Important)
+
+The Jupyter notebook (`Primetrade_assignement.ipynb`) is the primary artifact for review and will be examined before the Streamlit app. It contains the full analysis, methodology, and insights in a step-by-step format.
+
+If you are reviewing the work, start with the notebook, then use the dashboard for interactive exploration.
+
+## 📘 Other Docs
+
+- **`QUICKSTART.md`** provides a short, command-only setup flow.
+- **`PROJECT_STRUCTURE.md`** explains where files live (all files are inside `venv/`).
+
 ## 🚀 Quick Start
 
 ### 1. Clone or Download the Repository
