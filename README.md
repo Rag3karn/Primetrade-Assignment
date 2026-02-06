@@ -20,7 +20,7 @@ An interactive Streamlit dashboard for exploring the relationship between market
 
 ## 📓 Notebook First (Important)
 
-The Jupyter notebook (`Primetrade_assignement.ipynb`) is the primary artifact for review and will be examined before the Streamlit app. It contains the full analysis, methodology, and insights in a step-by-step format.
+The Jupyter notebook (`Primetrade_assignement.ipynb`) is the primary artifact for review and should be examined before the Streamlit app. It contains the full analysis, methodology, and insights in a step-by-step format.
 
 If you are reviewing the work, start with the notebook, then use the dashboard for interactive exploration.
 
@@ -279,3 +279,4 @@ To understand the analysis methodology and insights:
 ---
 
 **Happy Analyzing! 📊**
+
