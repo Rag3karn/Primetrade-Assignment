@@ -16,7 +16,7 @@ An interactive Streamlit dashboard for exploring the relationship between market
 - Python 3.8 or higher
 - pip (Python package manager)
 - Data files: `fear_greed_index.csv` and `historical_data.csv`
-- Project files are stored inside the `venv/` folder in this repo
+- Run commands from the repository root folder (`Primetrade-Assignment/`)
 
 ## 📓 Notebook First (Important)
 
@@ -27,7 +27,7 @@ If you are reviewing the work, start with the notebook, then use the dashboard f
 ## 📘 Other Docs
 
 - **`QUICKSTART.md`** provides a short, command-only setup flow.
-- **`PROJECT_STRUCTURE.md`** explains where files live (all files are inside `venv/`).
+- **`PROJECT_STRUCTURE.md`** explains where files live.
 
 ## 🚀 Quick Start
 
@@ -43,20 +43,26 @@ cd Primetrade-Assignment
 
 ### 2. Activate the Existing Virtual Environment
 
+If you already have a virtual environment, activate it. If not, create one first:
+
+```bash
+python -m venv .venv
+```
+
 **On Windows:**
 ```bash
-venv\Scripts\activate
+.venv\Scripts\activate
 ```
 
 **On macOS/Linux:**
 ```bash
-source venv/bin/activate
+source .venv/bin/activate
 ```
 
 ### 3. Install Dependencies
 
 ```bash
-pip install -r venv/requirements.txt
+pip install -r requirements.txt
 ```
 
 This will install:
@@ -70,7 +76,7 @@ This will install:
 Download the required CSV files from:
 https://docs.google.com/document/d/16Cs2eat8qot90BYqq3_QZv_6FiuTrANtHJTRggaQ4EQ/edit?tab=t.0
 
-Place the files in the same directory as `dashboard.py` (inside `venv/`):
+Place the files in the same directory as `dashboard.py` (repo root):
 
 - **`fear_greed_index.csv`** - Contains date and sentiment classification data
   - Required columns: `date`, `classification`, `value`
@@ -83,18 +89,16 @@ Place the files in the same directory as `dashboard.py` (inside `venv/`):
 **Example file structure:**
 ```
 Primetrade-Assignment/
-└── venv/
-  ├── dashboard.py
-  ├── requirements.txt
-  ├── README.md
-  ├── fear_greed_index.csv
-  └── historical_data.csv
+├── dashboard.py
+├── requirements.txt
+├── README.md
+├── fear_greed_index.csv
+└── historical_data.csv
 ```
 
 ### 5. Run the Dashboard
 
 ```bash
-cd venv
 streamlit run dashboard.py
 ```
 
@@ -137,15 +141,15 @@ The dashboard will automatically open in your default web browser at `http://loc
 ### Issue: "Module not found" error
 **Solution:** Make sure you've activated your virtual environment and installed all requirements:
 ```bash
-source venv/bin/activate  # On macOS/Linux
+source .venv/bin/activate  # On macOS/Linux
 # OR
-venv\Scripts\activate  # On Windows
+.venv\Scripts\activate  # On Windows
 
 pip install -r requirements.txt
 ```
 
 ### Issue: "File not found" error
-**Solution:** Ensure your CSV files are in the same directory as `dashboard.py` (inside `venv/`):
+**Solution:** Ensure your CSV files are in the same directory as `dashboard.py` (repo root):
 ```bash
 ls -la  # On macOS/Linux
 # OR
@@ -273,7 +277,7 @@ This dashboard is provided as-is for analysis purposes.
 ## 🎓 Learning More
 
 To understand the analysis methodology and insights:
-- Review the Jupyter notebook: `Primetrade_assignement_rewritten.ipynb`
+- Review the Jupyter notebook: `Primetrade_assignement.ipynb`
 - Read the executive summary: `Trading_Analysis_Summary.md`
 
 ---

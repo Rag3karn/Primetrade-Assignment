@@ -1,39 +1,28 @@
 # 🚀 Quick Start Guide
 
-## Option 1: Using Your Own Data (Recommended)
+## Run the Project
 
 ```bash
-# 1. Activate the existing virtual environment
-venv\Scripts\activate
+# 1. Open terminal in the project folder
+cd Primetrade-Assignment
 
-# 2. Install dependencies
-pip install -r venv/requirements.txt
+# 2. Create a virtual environment (first time only)
+python -m venv .venv
 
-# 3. Download the CSV files from:
+# 3. Activate the virtual environment
+.venv\Scripts\activate  # Windows
+# source .venv/bin/activate  # macOS/Linux
+
+# 4. Install dependencies
+pip install -r requirements.txt
+
+# 5. Download the CSV files from:
 #    https://docs.google.com/document/d/16Cs2eat8qot90BYqq3_QZv_6FiuTrANtHJTRggaQ4EQ/edit?tab=t.0
-#    Then place them in the same folder as dashboard.py (inside venv/)
+#    Then place them in the same folder as dashboard.py (project root)
 #    - fear_greed_index.csv
 #    - historical_data.csv
 
-# 4. Run the dashboard
-cd venv
-streamlit run dashboard.py
-```
-
-## Option 2: Using Sample Data (For Testing)
-
-```bash
-# 1. Activate the existing virtual environment
-venv\Scripts\activate
-
-# 2. Install dependencies
-pip install -r venv/requirements.txt
-
-# 3. Generate sample data
-python venv/generate_sample_data.py
-
-# 4. Run the dashboard
-cd venv
+# 6. Run the dashboard
 streamlit run dashboard.py
 ```
 

@@ -4,21 +4,17 @@
 
 ```
 Primetrade-Assignment/
-└── venv/
-  ├── 📊 ANALYSIS FILES
-  │   ├── Primetrade_assignement.ipynb          # Jupyter notebook with full analysis
-  │   └── Trading_Analysis_Summary.md           # Executive summary (1-page)
-  │
-  ├── 🖥️ DASHBOARD FILES
-  │   ├── dashboard.py                          # Main Streamlit application
-  │   ├── requirements.txt                      # Python dependencies
-  │   ├── README.md                             # Complete documentation
-  │   └── QUICKSTART.md                         # Quick start guide
-  │
-  ├── 🔧 UTILITIES
-  │   └── generate_sample_data.py               # Sample data generator (for testing)
-  │
-  └── 📄 DATA FILES (You provide these)
+├── 📊 ANALYSIS FILES
+│   ├── Primetrade_assignement.ipynb          # Jupyter notebook with full analysis
+│   └── Trading_Analysis_Summary.md           # Executive summary (1-page)
+│
+├── 🖥️ DASHBOARD FILES
+│   ├── dashboard.py                          # Main Streamlit application
+│   ├── requirements.txt                      # Python dependencies
+│   ├── README.md                             # Complete documentation
+│   └── QUICKSTART.md                         # Quick start guide
+│
+└── 📄 DATA FILES (You provide these)
     ├── fear_greed_index.csv                  # Market sentiment data
     └── historical_data.csv                   # Trading transaction data
 ```
@@ -50,7 +46,7 @@ The analysis summary is captured in **Trading_Analysis_Summary.md**.
 **requirements.txt**
 - List of required Python packages
 - Ensures consistent environment setup
-- Use with: `pip install -r venv/requirements.txt`
+- Use with: `pip install -r requirements.txt`
 
 **README.md**
 - Complete documentation (7,500+ words)
@@ -63,14 +59,6 @@ The analysis summary is captured in **Trading_Analysis_Summary.md**.
 - Condensed setup guide
 - Two-minute quick start
 - Essential commands only
-
-### Utilities
-
-**generate_sample_data.py**
-- Generates realistic sample data for testing
-- Creates both required CSV files
-- Useful for demo or development
-- No need for actual trading data
 
 ## Data File Requirements
 
@@ -95,7 +83,7 @@ Required columns:
 ## Usage Workflows
 
 ### Workflow 1: Analyze with Notebook
-1. Open `Primetrade_assignement_rewritten.ipynb` in Jupyter
+1. Open `Primetrade_assignement.ipynb` in Jupyter
 2. Run cells to see analysis step-by-step
 3. Review `Trading_Analysis_Summary.md` for insights
 
@@ -104,12 +92,6 @@ Required columns:
 2. Place CSV files in project folder
 3. Run: `streamlit run dashboard.py`
 4. Interact with visualizations in browser
-
-### Workflow 3: Test with Sample Data
-1. Install dependencies: `pip install -r requirements.txt`
-2. Generate sample data: `python generate_sample_data.py`
-3. Run dashboard: `streamlit run dashboard.py`
-4. Experiment with features using fake data
 
 ## Size Information
 
@@ -142,7 +124,6 @@ Required columns:
 - Full documentation in `README.md`
 - Troubleshooting section included
 - Code comments in all Python files
-- Sample data generator for testing
 
 ---
 
