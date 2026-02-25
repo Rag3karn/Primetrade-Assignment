@@ -2,6 +2,11 @@
 
 An interactive Streamlit dashboard for exploring the relationship between market sentiment (Fear & Greed Index) and cryptocurrency trading performance.
 
+## 🌐 Live Dashboard
+
+Access the deployed app here:
+https://primetradeassignment.streamlit.app/
+
 ## 🎯 Features
 
 - **Real-time Filtering**: Filter data by sentiment, date range, and cryptocurrency
@@ -102,7 +107,8 @@ Primetrade-Assignment/
 streamlit run dashboard.py
 ```
 
-The dashboard will automatically open in your default web browser at `http://localhost:8501`
+For local runs, the dashboard opens in your browser at `http://localhost:8501`.
+The hosted version is always available at `https://primetradeassignment.streamlit.app/`.
 
 ## 🎨 Dashboard Overview
 

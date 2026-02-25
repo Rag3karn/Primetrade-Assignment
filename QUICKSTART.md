@@ -1,5 +1,10 @@
 # 🚀 Quick Start Guide
 
+## 🌐 Live Dashboard
+
+Use the hosted app directly:
+https://primetradeassignment.streamlit.app/
+
 ## Run the Project
 
 ```bash
@@ -28,9 +33,9 @@ streamlit run dashboard.py
 
 ## 📱 Accessing the Dashboard
 
-Once running, the dashboard will open automatically at:
-- **Local URL:** http://localhost:8501
-- **Network URL:** http://192.168.x.x:8501 (for other devices on your network)
+- **Hosted URL (Recommended):** https://primetradeassignment.streamlit.app/
+- **Local URL (when running locally):** http://localhost:8501
+- **Network URL (local network):** http://192.168.x.x:8501
 
 ## 🎯 First Steps in the Dashboard
 
