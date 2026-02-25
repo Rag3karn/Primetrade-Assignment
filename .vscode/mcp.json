@@ -1,0 +1,8 @@
+{
+  "servers": {
+    "Primetrade-Assignment Docs": {
+      "type": "sse",
+      "url": "https://gitmcp.io/Rag3karn/Primetrade-Assignment"
+    }
+  }
+}
